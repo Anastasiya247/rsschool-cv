@@ -10,4 +10,16 @@
 * e-mail: skoraya.10324@gmail.com
 * GitHub: Anastasiya247
 ***
+## *About Me*
+I work at Alexandrov National Cancer Centre of Belarus as a radiologist.
+Also I'm a second-year student of BSUIR.
+I'm want to be a Software Engineer. 
+***
+## *Skills*
+* Assembler
+* C
+* Java
+* JS
+* Phyton
+***
 
