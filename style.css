@@ -34,3 +34,7 @@ p {
   justify-content: center;
   font: 36px/1.5 sans-serif;
 }
+.title-h2 {
+  color: #377064;
+  font-family: italic bold 48px Arial, sans-serif;
+}
