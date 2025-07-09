@@ -11,3 +11,8 @@ p {
   font-family: verdana;
   font-size: 20px;
 }
+<style>
+  .codeblock {
+    border: 5px solid #2196F3;
+  }
+</style>
