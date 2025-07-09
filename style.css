@@ -12,13 +12,13 @@ p {
   font-size: 20px;
 }
 .codeblock {
+  display:flex;
+  width: max-content;
   border: 5px solid #7732a8;
   border-radius: 6px;
   color: #2e064a;
   background-color: #e8cffa;
   padding: 10px;
   margin: 20px;
-  font-family: Verdana, sans-serif;
-  font-size: 18px;
-  line-height: 24px
+  font-family: italic bold 24px Arial, sans-serif;
 }
