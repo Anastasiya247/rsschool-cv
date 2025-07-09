@@ -28,6 +28,9 @@ p {
   list-style: none; 
   padding: 20px;
   gap: 20px;
-  font-family: italic bold 36px Verdana, sans-serif;
   color: #2e064a;
+  background-color: #e8cffa;
+  align-items: center;
+  justify-content: center;
+  font: 36px/1.5 sans-serif;
 }
