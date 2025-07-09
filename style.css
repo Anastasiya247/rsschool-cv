@@ -1,9 +1,9 @@
 body {
-  background-color: lightblue;
+  background-color: #6ffcde;
 }
 
 h1 {
-  color: white;
+  color: #377064;
   text-align: center;
 }
 
@@ -11,3 +11,10 @@ p {
   font-family: verdana;
   font-size: 20px;
 }
+<style>
+  .codeblock {
+    border: 5px solid #7732a8;
+    color: #2e064a;
+    background-color: #e8cffa;
+  }
+</style>
