@@ -16,6 +16,7 @@ p {
   width: max-content;
   border: 5px solid #7732a8;
   border-radius: 6px;
+  clip-path: inset(0 round 6px);
   color: #2e064a;
   background-color: #e8cffa;
   padding: 10px;
