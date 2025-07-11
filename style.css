@@ -34,7 +34,7 @@ p {
   background-color: #e8cffa;
   align-items: center;
   justify-content: center;
-  font: 36px/1.5 sans-serif;
+  font: 16px/1.5 sans-serif;
 }
 .block-item {
   flex: 1;
