@@ -1,9 +1,9 @@
 body {
-  background-color: #6ffcde;
+  background-color: #f2d7f5;
 }
 
 h1 {
-  color: #377064;
+  color: #55065e;
   text-align: center;
 }
 
@@ -36,6 +36,32 @@ p {
   justify-content: center;
   font: 16px/1.5 sans-serif;
 }
+.skills {
+  display: flex;
+  flex: 1;
+  width: max-content;
+  list-style: none; 
+  padding: 20px;
+  gap: 20px;
+  color: #2e064a;
+  background-color: #e8cffa;
+  align-items: center;
+  justify-content: center;
+  font: 16px/1.5 sans-serif;
+}
+.links {
+  display: flex;
+  flex: 1;
+  width: max-content;
+  list-style: none; 
+  padding: 20px;
+  gap: 20px;
+  color: #2e064a;
+  background-color: #e8cffa;
+  align-items: center;
+  justify-content: center;
+  font: 16px/1.5 sans-serif;
+}
 .block-item {
   flex: 1;
   min-width: 200px;
@@ -49,6 +75,7 @@ p {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 .title-h2 {
-  color: #377064;
+  color: #7d0a8a;
+  text-align: center;
   font-family: italic bold 48px Arial, sans-serif;
 }
