@@ -39,7 +39,6 @@ p {
   align-items: center;
   justify-content: center;
   font: 26px/2.5 sans-serif;
-  box-sizing: border-box;
 }
 .skills {
   display: flex;
