@@ -92,3 +92,8 @@ p {
   text-align: center;
   font-family: italic bold 48px Arial, sans-serif;
 }
+.round {
+  clip-path: circle(50%);
+  width: 200px;
+  height: 200px;
+}
