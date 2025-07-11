@@ -13,6 +13,7 @@ p {
 }
 .codeblock {
   display:flex;
+  flex: 1;
   width: max-content;
   margin: 0 auto;
   border: 5px solid #7732a8;
@@ -20,8 +21,7 @@ p {
   clip-path: inset(0 round 6px);
   color: #2e064a;
   background-color: #e8cffa;
-  padding: 10px;
-  margin: 20px;
+  padding: 20px;
   font-family: italic bold 44px Arial, sans-serif;
 }
 
@@ -45,9 +45,9 @@ p {
 .skills {
   display: flex;
   flex: 1;
-  margin: 0 auto;
   width: max-content;
-  list-style: none; 
+  list-style: none;
+  margin: 0 auto;
   padding: 20px;
   gap: 20px;
   border: 5px solid #7732a8;
