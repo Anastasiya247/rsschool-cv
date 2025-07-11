@@ -26,8 +26,7 @@ p {
 
 .contacts {
   display: flex;
-  width: 100%;
-  max-width: 1200px;
+  width: max-content;
   list-style: none;
   margin: 0 auto;
   padding: 20px;
