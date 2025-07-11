@@ -1,9 +1,9 @@
 body {
-  background-color: #6ffcde;
+  background-color: #f2d7f5;
 }
 
 h1 {
-  color: #377064;
+  color: #55065e;
   text-align: center;
 }
 
@@ -75,6 +75,7 @@ p {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 .title-h2 {
-  color: #377064;
+  color: #7d0a8a;
+  text-align: center;
   font-family: italic bold 48px Arial, sans-serif;
 }
