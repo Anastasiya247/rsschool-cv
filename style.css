@@ -27,7 +27,6 @@ p {
 .contacts {
   display: flex;
   flex: 1;
-  flex-direction: column;
   width: max-content;
   list-style: none;
   margin: 0 auto;
@@ -76,7 +75,6 @@ p {
 }
 .block-item {
   display: flex;
-  flex-grow: 1; 
   flex: 1;
   width: max-content;
   align-items: center;
@@ -93,4 +91,9 @@ p {
   color: #7d0a8a;
   text-align: center;
   font-family: italic bold 48px Arial, sans-serif;
+}
+.round {
+  clip-path: circle(50%);
+  width: 200px;
+  height: 200px;
 }
