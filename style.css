@@ -13,7 +13,8 @@ p {
 }
 .codeblock {
   display:flex;
-  width: 100%;
+  width: max-content;
+  margin: 0 auto;
   border: 5px solid #7732a8;
   border-radius: 6px;
   clip-path: inset(0 round 6px);
@@ -44,6 +45,7 @@ p {
 .skills {
   display: flex;
   flex: 1;
+  margin: 0 auto;
   width: max-content;
   list-style: none; 
   padding: 20px;
