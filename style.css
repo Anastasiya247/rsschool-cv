@@ -37,7 +37,7 @@ p {
   background-color: #e8cffa;
   align-items: center;
   justify-content: center;
-  font: 16px/1.5 sans-serif;
+  font: 26px/1.5 sans-serif;
 }
 .skills {
   display: flex;
@@ -81,6 +81,9 @@ p {
   background: #f8f9fa;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  align-items: center;
+  justify-content: center;
+  font: 26px/1.5 sans-serif;
 }
 .title-h2 {
   color: #7d0a8a;
