@@ -36,6 +36,32 @@ p {
   justify-content: center;
   font: 16px/1.5 sans-serif;
 }
+.skills {
+  display: flex;
+  flex: 1;
+  width: max-content;
+  list-style: none; 
+  padding: 20px;
+  gap: 20px;
+  color: #2e064a;
+  background-color: #e8cffa;
+  align-items: center;
+  justify-content: center;
+  font: 16px/1.5 sans-serif;
+}
+.links {
+  display: flex;
+  flex: 1;
+  width: max-content;
+  list-style: none; 
+  padding: 20px;
+  gap: 20px;
+  color: #2e064a;
+  background-color: #e8cffa;
+  align-items: center;
+  justify-content: center;
+  font: 16px/1.5 sans-serif;
+}
 .block-item {
   flex: 1;
   min-width: 200px;
