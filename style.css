@@ -13,7 +13,7 @@ p {
 }
 .codeblock {
   display:flex;
-  width: max-content;
+  width: 100%;
   border: 5px solid #7732a8;
   border-radius: 6px;
   clip-path: inset(0 round 6px);
@@ -21,7 +21,7 @@ p {
   background-color: #e8cffa;
   padding: 10px;
   margin: 20px;
-  font-family: italic bold 24px Arial, sans-serif;
+  font-family: italic bold 44px Arial, sans-serif;
 }
 .contacts {
   display: flex;
