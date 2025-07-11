@@ -73,6 +73,7 @@ p {
   font: 16px/1.5 sans-serif;
 }
 .block-item {
+  display: flex;
   flex: 1;
   width: max-content;
   align-items: center;
