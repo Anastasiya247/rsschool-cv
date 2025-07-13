@@ -93,7 +93,7 @@ p {
 .title-h2 {
   color: #7d0a8a;
   text-align: center;
-  font-family: italic bold 48px Arial, sans-serif;
+  font-size: 46px;
 }
 .round {
   clip-path: circle(50%);
