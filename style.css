@@ -22,7 +22,7 @@ p {
   color: #2e064a;
   background-color: #e8cffa;
   padding: 20px;
-  font-family: italic bold 44px Arial, sans-serif;
+  font-family: italic bold 14px Arial, sans-serif;
 }
 
 .contacts {
@@ -99,7 +99,8 @@ p {
   clip-path: circle(50%);
   width: 300px;
   height: 300px;
-  margin: auto;
+  align-items: center;
+  justify-content: center;
 }
 .languages {
   display:flex;
@@ -142,7 +143,7 @@ p {
   background-color: #e8cffa;
   align-items: center;
   justify-content: center;
-  font: 26px/2.5 sans-serif;
+  font: 16px/1.5 sans-serif;
 }
 .education {
   display: flex;
