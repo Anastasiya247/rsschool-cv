@@ -19,7 +19,7 @@ p {
   line-height: 1.5;
 }
 
-.codeblock, .contacts, .skills, .links, .languages, .about, .info, .education {
+.codeblock, .contacts, .skills, .links, .languages, .about, .info, .info1, .education {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -37,11 +37,10 @@ p {
 .block-item {
   display: flex;
   flex: 1;
-  width: max-content;
-  align-items: stretch;
+  width: 100%;
   padding: 15px;
   gap: 10px;
-  background: #f8f9fa;
+  background: #f7cfa1;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   margin: 5px 0;
