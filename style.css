@@ -179,6 +179,7 @@ p {
 .container {
   display: flex;
   flex: 1;
+  flex-direction: column;
   width: max-content;
   list-style: none;
   margin: 0 auto;
