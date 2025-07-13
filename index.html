@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <!-- Подключение внешнего CSS -->
+    <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/favicon.ico" />
+</head>
+
+<body>
+  <header>
+    <p>Welcome to my CV</p>
+    <nav> <!-- Меню -->
+      <ul>
+        <li><a href="/">Главная</a></li>
+        <li><a href="/about">О нас</a></li>
+        <li><a href="/contacts">Контакты</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+  <h1><i>Anastasiya Hancharyk</i></h1>
+    <img src="img/ME.png" class="round" alt="my photo">
+  <p> Doctor and Soft Engeneer</p>
+  <div class="info-container"> 
+  <h2 class="title-h2" >Contacts:</h2>
+    <ul class="contacts" class="info">
+      <li class="block-item"><img src="img/location.png" alt="Логотип" width="48" height="48">Minsk</li>
+      <li class="block-item"><img src="img/phone.jpg" alt="Логотип" width="48" height="48">+375292594674</li>
+      <li class="block-item"><img src="img/email.png" alt="Логотип" width="48" height="48"> skoraya.10324@gmail.com</li>
+      <li class="block-item"><img src="img/GitHub.png" alt="Логотип" width="48" height="48">Anastasiya247</li>
+    </ul>
+  <h2 class="title-h2">Skills:</h2>
+    <ul class="skills" class="info">
+      <li class="block-item"><img src="img/C.png" alt="Логотип" width="100" height="100"></li>
+      <li class="block-item"><img src="img/java.png" alt="Логотип" width="100" height="100"></li>
+      <li class="block-item"><img src="img/jslogo.png" alt="Логотип" width="100" height="100"></li>
+      <li class="block-item"><img src="img/phyton.png" alt="Логотип" width="100" height="100"></li>
+    </ul>
+    
+    <h2 class="title-h2">Code:</h2>
+    <pre class="codeblock" class="info"><code>
+    import java.math.BigInteger;
+
+    public class FiboA {
+
+    private long startTime = System.currentTimeMillis();
+
+    private long time() {
+        return System.currentTimeMillis() - startTime;
+    }
+
+    public static void main(String[] args) {
+        FiboA fibo = new FiboA();
+        int n = 33;
+        System.out.printf("calc(%d)=%d \n\t time=%d \n\n", n, fibo.calc(n), fibo.time());
+
+        fibo = new FiboA();
+        n = 33;
+        System.out.printf("slowA(%d)=%d \n\t time=%d \n\n", n, fibo.slowA(n), fibo.time());
+    }
+
+    private int calc(int n) {
+        if (n < 2) return n;
+        return calc(n - 1) + calc (n -2);
+    }
+
+    BigInteger slowA(Integer n) {
+        if (n == 0) return BigInteger.ZERO;
+        if (n == 1) return BigInteger.ONE;
+
+        return slowA(n-1).add(slowA(n -2));
+    }  
+    </code></pre>
+    
+  <h2 class="title-h2">About me</h2>
+  <p class="about" class="info">I work at Alexandrov National Cancer Centre of Belarus as a radiologist. Also I'm a second-year student of BSUIR. I'm want to be a Software Engineer.</p>
+  <h2 class="title-h2">Education</h2>
+    <ul class="education" class="info">
+      <li class="block-item"><img src="img/medic.jpg" alt="Логотип" width="48" height="48">Belarusian State Medical University</li>
+      <li class="block-item"><img src="img/comp.jpg" alt="Логотип" width="48" height="48">Belarusian State University of Informatics and Radioelectronics</li>
+    </ul>
+  <h2 class="title-h2">Languages</h2>
+  <p class="languages" class="info">English A2</p>
+  </div>
+  </main>
+  <footer>
+  <nav class="footer"> <!-- Меню -->
+    <ul class="links">
+      <li class="block-item"><p>© 2025 by Anastasiya Hancharyk</p></li>
+      <li class="block-item"><a href="https://rs.school/courses/javascript-ru">
+        <img src="img/js.png" alt="Логотип" width="48" height="48">
+      </a></li>
+      <li class="block-item"><a href="https://github.com/Anastasiya247">
+        <img src="img/GitHub.png" alt="Логотип" width="48" height="48">
+      </a></li>
+    </ul>
+  </nav>
+</footer>
+</body>
