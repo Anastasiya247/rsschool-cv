@@ -1,12 +1,12 @@
 body {
-  background-color: #fce297;
+  background-color: #fc8905;
   margin: 0;
   padding: 10px;
   font-family: Arial, sans-serif;
 }
 
 h1 {
-  color: #f56042;
+  color: #241505;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   text-align: center;
   font-size: 2rem;
@@ -26,10 +26,10 @@ p {
   margin: 0 auto;
   padding: 15px;
   gap: 20px;
-  border: 5px solid #7732a8;
+  border: 5px solid #b05e00;
   border-radius: 6px;
   color: #2e064a;
-  background-color: #e8cffa;
+  background-color: #e5aa65;
   box-sizing: border-box;align-items: center;
   justify-content: center;
 }
@@ -51,7 +51,7 @@ p {
 }
 
 .title-h2 {
-  color: #f0610e;
+  color: #b05e00;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   text-align: center;
   font-size: 1.5rem;
@@ -88,7 +88,7 @@ p {
     height: 200px;
   }
 
-  .contacts, .skills, .links, .languages, .about, .info, .education {
+  .contacts, .skills, .links, .languages, .about, .info, .info1, .education {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -110,7 +110,7 @@ p {
     height: 250px;
   }
 
-  .codeblock, .contacts, .skills, .links, .languages, .about, .info, .education {
+  .codeblock, .contacts, .skills, .links, .languages, .about, .info, .info1, .education {
     padding: 20px;
   }
 
