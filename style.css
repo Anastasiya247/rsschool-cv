@@ -14,7 +14,7 @@ p {
 .codeblock {
   display:flex;
   flex: 1;
-  width: max-content;
+  width: 100%;
   margin: 0 auto;
   border: 5px solid #7732a8;
   border-radius: 6px;
@@ -28,7 +28,7 @@ p {
 .contacts {
   display: flex;
   flex: 1;
-  width: max-content;
+  width: 100%;
   list-style: none;
   margin: 0 auto;
   padding: 20px;
@@ -91,7 +91,7 @@ p {
   font: 26px/1.5 sans-serif;
 }
 .title-h2 {
-  color: #7d0a8a;
+  color: #f5ef42;
   text-align: center;
   font-size: 46px;
 }
@@ -104,7 +104,7 @@ p {
 .languages {
   display:flex;
   flex: 1;
-  width: max-content;
+  width: 100%;
   margin: 0 auto;
   border: 5px solid #7732a8;
   border-radius: 6px;
@@ -117,7 +117,7 @@ p {
 .about {
   display:flex;
   flex: 1;
-  width: max-content;
+  width: 100%;
   margin: 0 auto;
   border: 5px solid #7732a8;
   border-radius: 6px;
@@ -148,7 +148,7 @@ p {
 .education {
   display: flex;
   flex: 1;
-  width: max-content;
+  width: 100%;
   list-style: none;
   margin: 0 auto;
   padding: 20px;
@@ -165,7 +165,7 @@ p {
 .footer {
   display: flex;
   flex: 1;
-  width: max-content;
+  width: 100%;
   list-style: none;
   margin: 0 auto;
   padding: 20px;
