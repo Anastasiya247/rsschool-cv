@@ -176,3 +176,11 @@ p {
   justify-content: center;
   font: 16px/1.5 sans-serif;
 }
+.info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+  max-width: max-content;
+  margin: 0 auto;
+  padding: 20px;
+}
